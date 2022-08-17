@@ -1,0 +1,23 @@
+<!-- You should click the first item pressing the Tab. Keep track of the order. Please consider that many subsequent Tabs are capable of moving the focus out of the iframe with the example.-->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Title of the Document</title>
+    <style>
+      li {
+        cursor: pointer;
+      }
+      :focus {
+        outline: 2px solid rgb(196, 95, 95);
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li tabindex="1">One</li>
+      <li tabindex="0">Zero</li>
+      <li tabindex="-1">Minus one</li>
+      <li tabindex="2">Two</li>
+    </ul>
+  </body>
+</html>
